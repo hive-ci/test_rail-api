@@ -1,5 +1,4 @@
 Gem::Specification.new do |s|
-
   s.name        = 'test_rail-api'
   s.version     = '0.4.1'
   s.date        = '2014-05-05'
@@ -11,9 +10,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/bbc/test_rail-api'
   s.license     = 'MIT'
 
-  s.add_runtime_dependency 'json', '~> 1.0'
+  s.add_runtime_dependency 'json', '~> 2.1.0'
   s.add_runtime_dependency 'virtus', '~> 1.0'
 
-  s.add_development_dependency 'rspec', "~> 2.14"
+  s.add_development_dependency 'rspec', '~> 2.14'
   s.add_development_dependency 'faker', '~> 1.0'
 end
